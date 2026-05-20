@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rakshya Juyal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop>
+        <source src="assets/sound.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Rakshya Juyal
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="projects.html">Projects</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-buttons">
+
+            <button id="musicToggle">
+                🎵
+            </button>
+
+            <button id="themeToggle">
+                🌙
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Hi, I'm
+                <span>Rakshya Juyal</span>
+            </h1>
+
+            <h2 id="typing"></h2>
+
+            <p>
+                Passionate Computer Science student at University for the Creative Arts Farnham,
+                focused on interactive programming, modern web development,
+                GUI applications, and innovative digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="contact.html" class="primary-btn">
+                    Get In Touch
+                </a>
+
+                <a href="projects.html" class="secondary-btn">
+                    View Projects
+                </a>
+
+            </div>
+
+            <!-- SOCIALS -->
+
+            <div class="socials">
+
+                <a href="https://github.com/juyalrakshya"
+                    target="_blank">
+
+                    <img src="assets/github.png" alt="GitHub">
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/rakshya-juyal-6962383b9/"
+                    target="_blank">
+
+                    <img src="assets/linkedin.png" alt="LinkedIn">
+
+                </a>
+
+                <a href="mailto:juyalrakshya@gmail.com">
+
+                    <img src="assets/mail.png" alt="Email">
+
+                </a>
+
+                <a href="https://x.com/JuyalRakshya"
+                    target="_blank">
+
+                    <img src="assets/twitter.png" alt="Twitter">
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- PROFILE IMAGE -->
+
+        <div class="hero-image">
+
+            <img src="assets/profile.jpeg"
+                alt="Rakshya Juyal">
+
+        </div>
+<div class="hero-image">
+
+    <div id="three-container"></div>
+
+</div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about">
+
+        <h2 class="section-title">
+            About Me
+        </h2>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <h3>🎓 Education</h3>
+
+                <p>
+                    Computer Science student at University for the Creative Arts Farnham.
+                </p>
+
+            </div>
+
+            <div class="about-card">
+
+                <h3>💻 Development</h3>
+
+                <p>
+                    Passionate about web development, interactive applications,
+                    and futuristic UI/UX design.
+                </p>
+
+            </div>
+
+            <div class="about-card">
+
+                <h3>🚀 Goals</h3>
+
+                <p>
+                    Continuously learning modern technologies while building creative digital experiences.
+                </p>
+
+            </div>
+
+        </div>
+
+        <p class="about-text">
+
+            I'm a dedicated Computer Science student focused on programming,
+            interactive systems, GUI applications, databases, and modern frontend design.
+            I enjoy combining creativity with code to build meaningful digital projects.
+
+        </p>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section class="skills">
+
+        <h2 class="section-title">
+            Skills
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <h3>Frontend</h3>
+
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="bar"><div style="width:90%"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="bar"><div style="width:85%"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="bar"><div style="width:80%"></div></div>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Programming</h3>
+
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="bar"><div style="width:75%"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="bar"><div style="width:70%"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span>SQL</span>
+                    <div class="bar"><div style="width:75%"></div></div>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Tools</h3>
+
+                <div class="skill">
+                    <span>GitHub</span>
+                    <div class="bar"><div style="width:85%"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span>VS Code</span>
+                    <div class="bar"><div style="width:90%"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span>React</span>
+                    <div class="bar"><div style="width:70%"></div></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Rakshya Juyal | Built with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -145,10 +145,16 @@ body{
 .socials img{
     width:35px;
     transition:0.3s;
+    background:white;
+    padding:6px;
+    border-radius:50%;
 }
 
 .socials img:hover{
     transform:scale(1.2);
+    box-shadow:
+        0 0 15px #00f0ff,
+        0 0 30px #7b61ff;
 }
 
 .hero-image img{
